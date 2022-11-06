@@ -58,7 +58,7 @@ header, footer {
 aside, nav {
     background-color:#E4EFD5;
     padding: 2%;
-    
+
 }
 
 aside {
@@ -105,4 +105,19 @@ section {
 footer {
     font-size: 15px;
 /*     flex: 1; */
+}
+img{
+    max-width: 390px;
+}
+
+.image {
+    float: left;
+    padding: 1%;
+}
+
+
+@media (max-width: 600px) {
+    div {
+        flex-direction: column;
+    }
 }
