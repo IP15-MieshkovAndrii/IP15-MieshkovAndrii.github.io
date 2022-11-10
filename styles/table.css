@@ -20,7 +20,6 @@ header, .footer {
     overflow: hidden;
     outline: 2px solid #000;
     position: relative;
-    padding-left: 200px;
 }
 
 #x, #y {
@@ -37,7 +36,7 @@ header, .footer {
     height: 50px;
     top: 50%;
     margin-top: -25px;
-    position-left: 50px;
+    float: left;
 }
 
 .aside, .nav {
