@@ -18,6 +18,10 @@ header, footer {
     position: relative;
 }
 
+.footer p{
+    padding-left: 200px;
+}
+
 #x, #y {
     background-color: white;
     float: left;
