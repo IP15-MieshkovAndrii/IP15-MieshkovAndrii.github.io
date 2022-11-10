@@ -33,9 +33,9 @@ header, .footer {
     outline-style: solid;
     padding-right: 2px;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto 0;
+    height: 50px;
+    top: 50%;
+    margin-top: -25px;
 }
 
 .aside, .nav {
