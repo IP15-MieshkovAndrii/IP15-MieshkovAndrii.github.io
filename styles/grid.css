@@ -27,6 +27,9 @@ header, footer {
     outline-color: black;
     outline-style: solid;
     padding-right: 2px;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.625em;
 }
 
 .grid-container {
