@@ -20,6 +20,7 @@ header, .footer {
     overflow: hidden;
     outline: 2px solid #000;
     position: relative;
+    padding-left: 200px
 }
 
 #x, #y {
