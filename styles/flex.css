@@ -29,8 +29,9 @@ header, footer {
     outline-style: solid;
     padding-right: 2px;
     position: absolute;
-    top: 50%;
-    margin-top: -0.625em;
+    top: 40%;
+    bottom: 40%;
+    margin: auto 0;
 }
 
 #DivMain {
