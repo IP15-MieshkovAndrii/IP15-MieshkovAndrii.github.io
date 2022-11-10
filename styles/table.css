@@ -37,7 +37,7 @@ header, .footer {
     height: 50px;
     top: 50%;
     margin-top: -25px;
-    padding-left: 50px;
+    position-left: 50px;
 }
 
 .aside, .nav {
