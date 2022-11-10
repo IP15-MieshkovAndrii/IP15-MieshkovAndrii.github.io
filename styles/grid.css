@@ -15,6 +15,7 @@ header, footer {
     font-size: 30px;
     overflow: hidden;
     outline: 2px solid #000;
+    position: relative;
 }
 
 #x, #y {
@@ -28,8 +29,9 @@ header, footer {
     outline-style: solid;
     padding-right: 2px;
     position: absolute;
-    top: 50%;
-    margin-top: -0.625em;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
 }
 
 .grid-container {
