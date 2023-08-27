@@ -272,7 +272,7 @@ const calculateCardinalDirection = (degrees) => {
 }
 
 async function fetchWeatherData(cityName, apiKey) {
-  const geoApiUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=5&appid=${apiKey}`;
+  const geoApiUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=5&appid=${apiKey}`;
   
   try {
       const response = await fetch(geoApiUrl);
