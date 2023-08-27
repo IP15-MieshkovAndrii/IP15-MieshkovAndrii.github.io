@@ -378,7 +378,7 @@ async function fetchWeatherData(cityName, apiKey) {
 
           tendaysForecastContainer.appendChild(forecastItem);
       });
-      const response_3 = await fetch(`http://api.openweathermap.org/data/2.5/air_pollution?lat=${globalLat}&lon=${globalLon}&appid=${apiKey}`);
+      const response_3 = await fetch(`https://api.openweathermap.org/data/2.5/air_pollution?lat=${globalLat}&lon=${globalLon}&appid=${apiKey}`);
       if (!response_3.ok) {
           throw new Error('Network response was not ok');
       }
