@@ -415,7 +415,7 @@ function initMap() {
         lat: position.coords.latitude,
         lng: position.coords.longitude
       };
-      console.log(latLng)
+
       var geocoder = new google.maps.Geocoder();
       geocoder.geocode({ 'location': latLng }, function(results, status) {
         if (status === google.maps.GeocoderStatus.OK) {
@@ -489,7 +489,7 @@ function addCityItem() {
 }
 
 const initCityName = initMap()
-console.log(initCityName)
+
 fetchWeatherData(initCityName || 'New York', apiKey)
 const cityInput = document.getElementById("cityInput");
 const searchButton = document.getElementById("searchButton");
